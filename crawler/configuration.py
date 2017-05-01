@@ -12,6 +12,7 @@ KFK_CONSUMER = 'Consumer'
 avro_test_schema = {
 }
 
+# PLEASE FILL - KAFKA TOPIC NAME
 INGESTION_TOPIC = 'crawl'
 
 # MONGO CONFIG -- PLEASE FILL
