@@ -31,6 +31,6 @@
  `curl 127.0.0.1:5000/api/v1/crawl/query?url=https://www.apple.com/uk/iphone`
 
 
-**Note:** For Architecture and documentation look at the doc folder.
+**Note:** For Architecture and documentation please look at the doc folder.
 
 **Note:** The code is tested with Python3.
