@@ -17,10 +17,18 @@
        `Python crawler/run.py`
  
  Note: For better response time, run the above on multiple instances of the consumer using different processes to increase parallelism.
- Alternatively Use docker swarm or marathon to start many containers. I will add Dockerfile.
+ Alternatively Use docker swarm or marathon to start many containers.
 
  2) Start the web service:
         `Python crawler/webservice.py`
+
+
+**Sumbit/query:**
+ 1) To submit a url use this API call example:
+`curl 127.0.0.1:5000/api/v1/crawl/submit?url=https://www.apple.com/uk/iphone&domain=https://www.apple.com`
+
+ 2) To query the results:
+ `curl 127.0.0.1:5000/api/v1/crawl/query?url=https://www.apple.com/uk/iphone`
 
 
 **Note:** For Architecture and documentation look at the doc folder.
