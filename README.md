@@ -1,4 +1,6 @@
-**Requirements:** 
+**Note:** For Architecture and documentation please look at the doc folder.
+
+**Requirements:**
   1) Fill mongodb connection info in configuration.py
   2) Fill Kafka broker IPs in configuration.py
   3) Create a topic in kafka with a large number of partitions / fill topic name in configuration.py
@@ -30,7 +32,5 @@
  2) To query the results:
  `curl 127.0.0.1:5000/api/v1/crawl/query?url=https://www.apple.com/uk/iphone`
 
-
-**Note:** For Architecture and documentation please look at the doc folder.
 
 **Note:** The code is tested with Python3.
