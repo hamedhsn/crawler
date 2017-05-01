@@ -34,7 +34,7 @@ class CrawlerService(Resource):
         q = {'src': url}
         p = {'url': 1, 'assets': 1, '_id': 0}
 
-        return list(dbcon_oput.find(q, p).limit(2))
+        return list(dbcon_oput.find(q, p).limit(0))
 
     def get(self, ops=None):
 

@@ -10,9 +10,9 @@ from crawler.utils.mongo import mongo_connect
 from crawler.utils.string import hash_str
 from crawler.utils.url import get_elements
 
-cons = KfkConsumer(INGESTION_TOPIC, 'con', set_offset_to_end=True)
+# cons = KfkConsumer(INGESTION_TOPIC, 'con', set_offset_to_end=True)
 
-# cons = KfkConsumer(INGESTION_TOPIC, 'con')
+cons = KfkConsumer(INGESTION_TOPIC, 'con')
 prod = KfkProducer(INGESTION_TOPIC)
 dbcon_oput = mongo_connect(col_nm=OUTPUT_COLNM)
 
