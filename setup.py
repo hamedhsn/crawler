@@ -12,12 +12,12 @@ dependency_links = [
 ]
 
 setup(
-    name='wikirace',
+    name='crawler',
     version='1.0.0',
-    description='wiki race',
+    description='crawler',
     author='Hamed',
     maintainer='Hamed',
-    maintainer_email='hamed@gmail.com',
+    maintainer_email='hamedhsn@gmail.com',
     packages=find_packages(),
     install_requires=requirements,
     include_package_data=True

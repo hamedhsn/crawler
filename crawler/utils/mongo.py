@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-from wikirace import configuration as cfg
+from crawler import configuration as cfg
 
 
 def mongo_connect(col_nm=None, dbname=cfg.MNG_DBNAME, host=cfg.MNG_HOST, port=cfg.MNG_PORT,

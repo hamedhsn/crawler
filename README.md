@@ -14,15 +14,15 @@
 
 **How to run it:**
  1) Run consumer:
-       `Python wikirace/run.py`
+       `Python crawler/run.py`
  
  Note: For better response time, run the above on multiple instances of the consumer using different processes to increase parallelism.
  Alternatively Use docker swarm or marathon to start many containers. I will add Dockerfile.
 
  2) Start the web service:
-        `Python wikirace/webservice.py`
+        `Python crawler/webservice.py`
 
 
 **Note:** For Architecture and documentation look at the doc folder.
 
-**Note:** The code is tested with Python3. 
+**Note:** The code is tested with Python3.

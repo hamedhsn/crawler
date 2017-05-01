@@ -8,7 +8,7 @@ from bson import json_util
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 
-from wikirace import configuration as kfkcfg
+from crawler import configuration as kfkcfg
 
 parser_logger = logging.getLogger("Kafka producer");
 parser_logger.setLevel(logging.INFO)

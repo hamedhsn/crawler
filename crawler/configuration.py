@@ -1,5 +1,4 @@
-
-# KAFKA_CLUSTR = ['127.0.0.1:9092'] -- PLEASE FILL
+# KAFKA_CLUSTR = EX: ['127.0.0.1:9092'] -- PLEASE FILL
 KAFKA_CLUSTR = []
 
 
@@ -13,7 +12,7 @@ KFK_CONSUMER = 'Consumer'
 avro_test_schema = {
 }
 
-INGESTION_TOPIC = 'wiki'
+INGESTION_TOPIC = 'crawl'
 
 # MONGO CONFIG -- PLEASE FILL
 MNG_HOST = ""
@@ -24,7 +23,6 @@ MNG_PASSWORD = ""
 MNG_SSL = False
 MNG_SOURCE = None
 
-OUTPUT_COLNM = 'wiki'
+OUTPUT_COLNM = 'crawl'
 
-DMN = 'https://en.wikipedia.org'
 MAX_DEPTH = 10

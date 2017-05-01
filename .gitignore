@@ -22,7 +22,4 @@ cfg/session*
 build/*
 dist/*
 dm.egg-info/*
-docs/build/*
-docs/source/res/dm.cfg
-docs/source/res/dm.user.cfg
-docs/source/res/rsa_deployment*
+doc/*
